@@ -9,13 +9,13 @@ from sklearn.metrics import log_loss
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import balanced_accuracy_score as accuracy_score
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_absolute_percentage_error
 from sklearn.metrics import mean_squared_log_error
 from sklearn.metrics import f1_score
 from sklearn.metrics import average_precision_score
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import balanced_accuracy_score as accuracy_score
 
 
 def logloss(y_true, y_predicted, sample_weight=None):
